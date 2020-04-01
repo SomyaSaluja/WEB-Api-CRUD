@@ -23,5 +23,17 @@ namespace WebAPICRUD
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        //this method is added for CORS.
+        protected void Application_BeginRequest()
+        {
+            string[] allowedOrigin = new string[] { "http://localhost:7988" };
+            var origin = HttpContext.Current.Request.Headers["Origin"];
+            //if (origin != null && allowedOrigin.Contains(origin))
+            //{
+                //HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "*");
+                //HttpContext.Current.Response.AddHeader("Access-Control-Allow-Methods", "*");
+                //HttpContext.Current.Response.AddHeader("Access-Control-Allow-Headers", "*");
+            //}
+        }  
     }
 }

@@ -30,3 +30,8 @@ c:\users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\Syst
 c:\users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\obj\Debug\WebAPICRUD.csprojResolveAssemblyReference.cache
 c:\users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\obj\Debug\WebAPICRUD.dll
 c:\users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\obj\Debug\WebAPICRUD.pdb
+C:\Users\om\Documents\Visual Studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\System.Web.Cors.dll
+C:\Users\om\Documents\Visual Studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\System.Web.Http.Cors.dll
+C:\Users\om\Documents\Visual Studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\System.Web.Http.Cors.xml
+C:\Users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\EntityFramework.SqlServer.dll
+C:\Users\om\documents\visual studio 2012\Projects\WebAPICRUD\WebAPICRUD\bin\EntityFramework.SqlServer.xml

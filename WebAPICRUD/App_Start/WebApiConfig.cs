@@ -9,6 +9,10 @@ namespace WebAPICRUD
     {
         public static void Register(HttpConfiguration config)
         {
+
+            //enable cors requests 
+            config.EnableCors();
+            //config.MapHttpAttributeRoutes();
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

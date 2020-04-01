@@ -20,7 +20,7 @@ namespace WebAPICRUD.Controllers
             hc.BaseAddress = new Uri("http://localhost:11590/api/Employee");
             var getEmployeeData = hc.GetAsync("Emp");
             getEmployeeData.Wait();
-             var dataRead = getEmployeeData.Res
+            
             return View();
         }
 
